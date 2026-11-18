@@ -53,7 +53,22 @@
 
 ## Пример работы
 
-Здесь необходимо вставить настоящий сеанс работы из консоли клиента (5–10 команд), включая хотя бы одну ошибку.
+```
+> SET ivan
+Server: OK
+> SET name misha
+Server: OK
+> SET city Mosc
+Server: OK
+> set sdasdas
+Server: ERROR unknown command: set
+> SAVE
+Server: OK
+> PING
+Server: PONG
+> ECHO
+Server:
+```
 
 ## Скриншоты
 
